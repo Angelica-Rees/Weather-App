@@ -6,9 +6,13 @@ This is a weather app made using HTML, CSS, and JS. The weather app will open to
 
 ### How to Run
 
-To run this, you need to download Visual Studio code(VS code). The following is a link to the download for VS code: 
-https://code.visualstudio.com/Download
-Then you can download the files in this repository and open them on VS code. Additionally, you will need to downlioad the extension for "live server". Then open the index.html and press ctrl+p. Type ">live server: open with live server" and this will open a browser with the component. 
+1. To run this you need to have Node.js installed in your system [https://nodejs.org/en/download/]. 
+
+2. Run the command `npm install http-server -g`
+
+3. After that navigate to the specific path of your file folder in command prompt and run the commmand `http-server` **note: may need to run as administrator**.
+ 
+4. Then go to your browser and type localhost:8080. The application should run.
 
 ### Acknowledgements
 
